@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/idpeople"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:src="@drawable/ic_baseline_people_24" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_toRightOf="@id/idpeople"
+android:layout_marginLeft="10dp">
+        <TextView
+            android:id="@+id/hoten"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="ho ten"/>
+        <TextView
+            android:id="@+id/diachi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dia chi"/>
+    </LinearLayout>
+
+<ImageView
+    android:id="@+id/delete"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="10dp"
+    android:src="@drawable/ic_baseline_delete_24"/>
+
+
+</RelativeLayout>

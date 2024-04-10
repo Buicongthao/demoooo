@@ -58,6 +58,8 @@ public class user implements Serializable {
 
     private int imgdelete;
 
+    
+
     public user() {
     }
 }

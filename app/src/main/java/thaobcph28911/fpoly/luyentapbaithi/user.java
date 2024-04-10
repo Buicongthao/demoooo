@@ -8,6 +8,9 @@ public class user implements Serializable {
     private int id;
     private int img;
 
+
+
+
     public String getName() {
         return name;
     }
@@ -58,7 +61,7 @@ public class user implements Serializable {
 
     private int imgdelete;
 
-    
+
 
     public user() {
     }

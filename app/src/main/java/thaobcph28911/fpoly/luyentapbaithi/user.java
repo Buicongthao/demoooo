@@ -9,7 +9,10 @@ public class user implements Serializable {
     private int img;
 
     private int a;
+
     private int b;
+
+
     public String getName() {
         return name;
     }

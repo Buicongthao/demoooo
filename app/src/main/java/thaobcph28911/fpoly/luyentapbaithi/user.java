@@ -10,6 +10,11 @@ public class user implements Serializable {
 
     private int a;
 
+
+
+
+
+
     public String getName() {
         return name;
     }
